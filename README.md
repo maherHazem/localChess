@@ -166,4 +166,4 @@ This project is open source and available under the [MIT License].
 
 ⭐ Star this repo if you find it useful!
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/local-chess-game?style=social)](https://github.com/your-username/local-chess-game)
+[![GitHub stars](https://img.shields.io/github/stars/maherHazem/localChess?style=social)](https://github.com/maherHazem/localChess)
