@@ -4,7 +4,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-A fully functional, local two-player chess game built with React, [chess.js](https://github.com/jhlywa/chess.js), and [react-chessboard](https://github.com/Clariity/react-chessboard). Play chess against a friend on the same device with an intuitive interface, move validation, and game history tracking.
+A fully functional, local two-player chess game built with React, [chess.js](https://github.com/jhlywa/chess.js), and [react-chessboard](https://github.com/Clariity/react-chessboard). Play chess against a friend on the same device with an intuitive interface, move validation, and game history tracking. You can try the game [here](https://dainty-meringue-afeedf.netlify.app/)
 
 ## ✨ Features
 
