@@ -1,38 +1,114 @@
-.App {
+#chessGame {
+  display: grid;
+  justify-content: center;
+}
+#gameStatus {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#resetGame {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#resetGame:hover {
+  background-color: #45a049;
+  cursor: pointer;
+} 
+#chessNotation {
+  height: 45vh;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  overflow-y: auto;
+}
+#chessNotation > p {
+  border-bottom: 1px solid #ddd;
+}
+#header {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+#name {
+  font-weight: bold;
+}
+#portfolioLink {
+  color: #4CAF50;
+  text-decoration: none;
+}
+@media only screen and (min-width: 600px) and (max-height:400px) {
+  #chessGameContainer {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  }
+  #chessGame {
+    min-width: fit-content;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: start;
+  }
+  #chessNotation {
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    overflow-y: auto;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 600px) and (min-height:401px) and (max-height:1000px) {
+  #chessGameContainer {
+    display: grid;
+    grid-template-columns: 1fr auto;
   }
-  to {
-    transform: rotate(360deg);
+  #chessGame {
+    min-width: fit-content;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: start;
+  }
+  #chessNotation {
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    overflow-y: auto;
+  }
+  #header {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  #chessGameContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #chessGame {
+    margin: 1em 0 0 1em;
+    min-width: fit-content;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: start;
+  }
+  #chessNotation {
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    overflow-y: auto;
+  }
+  #header {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  #portfolioLink:hover {
+    color: #288b2c;
+    text-decoration: underline;
   }
 }
